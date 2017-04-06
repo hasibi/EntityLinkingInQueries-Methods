@@ -1,0 +1,17 @@
+*.pyc
+doc/build
+/_versions/
+/dist/
+/*.egg-info
+build/
+doc
+makefile 
+.project
+.pydevproject
+.idea
+*.log
+*.aux
+*.bbl
+*.blg
+*.texpadtmp
+

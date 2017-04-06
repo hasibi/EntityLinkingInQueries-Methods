@@ -14,4 +14,4 @@ makefile
 *.bbl
 *.blg
 *.texpadtmp
-
+*.ipynb_checkpoints

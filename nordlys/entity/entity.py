@@ -28,8 +28,6 @@ from nordlys.storage.mongo import Mongo
 from surfaceforms import SurfaceForms
 from dbpedia.entity import DBpediaEntity
 from config import COLLECTION_DBPEDIA, COLLECTION_FREEBASE, COLLECTION_FREEBASE_DBPEDIA
-from nordlys.wikipedia.config import COLLECTION_SURFACEFORMS_WIKI_2010
-
 
 class Entity(object):
     
@@ -180,10 +178,7 @@ def main():
     args = parser.parse_args()
 
     if args.command == "lookup_name":
-        if args.wiki:
-            sf = SurfaceForms(collection=COLLECTION_SURFACEFORMS_WIKI_2010)
-        else:
-            sf = SurfaceForms(lowercase=args.lower)
+        sf = SurfaceForms(lowercase=args.lower)
         pprint.pprint(sf.get(args.uri_or_name.lower()))
     else:
         entity = Entity()

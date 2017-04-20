@@ -57,4 +57,4 @@ If you use the resources presented in this repository, please cite:
 
 ## Contact
 
-If you have any questions, feel free to contact Faegheh Hasibi at <faegheh.hasibi@idi.ntnu.no>.
+If you have any questions, feel free to contact *Faegheh Hasibi* at <faegheh.hasibi@ntnu.no>.

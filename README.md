@@ -1,4 +1,4 @@
-# EntityLinkingInQueries: Efficiency vs. Effectiveness
+# Entity Linking in Queries: Efficiency vs. Effectiveness
 
 This repository contains resources developed within the following paper:
 

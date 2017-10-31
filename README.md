@@ -49,9 +49,9 @@ If you use the resources presented in this repository, please cite:
    booktitle = {Proceedings of 39th European Conference on Information Retrieval},
    series =    {ECIR '17},
    year =      {2017},
-   pages=      {xx--xx},
+   pages=      {40--53},
    publisher = {Springer},
-   DOI =       {ttp://dx.doi.org/xx}
+   DOI =       {https://doi.org/10.1007/978-3-319-56608-5_4}
 } 
 ```
 

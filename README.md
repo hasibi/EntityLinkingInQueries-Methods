@@ -30,7 +30,8 @@ The index and surface form dictionary required for running this code are describ
 
 - `Y-ERD.tsv`: The Y-ERD test collection
 - `Trec_beta*.txt`: The ERD test collection
--  `fb_dbp_snapshot.txt`: The Freebase snapshot provided by the [ERD challenge 2014](http://sigir.org/files/forum/2014D/p063.pdf)
+-  `fb_dbp_snapshot.txt`: Snapshot of proper named entities. This file is the intersection of DBpedia 3.9 and Freebase snapshot of proper named entities provided by the [ERD challenge 2014](http://sigir.org/files/forum/2014D/p063.pdf) (`fb_snapshot_original.tsv.zip` is the original file from the ERD challenge).
+
 
 ## Qrels
 
